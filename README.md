@@ -4,7 +4,7 @@ Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando 
 ## Tabla de Contenido
 1.[Introducción](#introducción)
 2. [Marco Teórico](#Marco-Teórico)
-2.[Requisitos](#requisitos)
-3.[Resultados](#resultados).
-4.[Test de Hipótesis](#Test-de-Hipótesis).
-5.[Conclusión](#conclusión)
+3.[Requisitos](#requisitos)
+4.[Resultados](#resultados).
+5.[Test de Hipótesis](#Test-de-Hipótesis).
+6.[Conclusión](#conclusión)
