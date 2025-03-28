@@ -1,5 +1,5 @@
 # Lab-4-Fatiga
-Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando un filtrado para las señales continuas que se obtendrán a través de un módulo de sensor EMG. El código esta implementado en Python y utiliza bibliotecas como `numpy`, `matplotlib`, `pandas`y `PyQT6`.
+Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando un filtrado para las señales continuas que se obtendrán a través de un módulo de sensor EMG. El código esta implementado en Python y utiliza bibliotecas como `numpy`, `matplotlib`, `pandas`y `PyQt6`.
 
 ## Tabla de Contenido
 1.[Introducción](#introducción)
@@ -35,6 +35,6 @@ La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o f
 ## Requisitos
 - **Phyton** Instalado en tu sistema.
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
-- **Bibliotecas de Python:** `numpy`,`matplotlib`,`PyQT6`,`pandas`.
+- **Bibliotecas de Python:** `numpy`,`matplotlib`,`PyQt6`,`pandas`.
 - **Módulo de sensor EMG** Para filtrado y amplificación de la señal.
 
