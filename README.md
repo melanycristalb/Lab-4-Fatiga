@@ -73,5 +73,11 @@ Una vez que se tiene el nivel de significancia y los grados de libertad, se revi
 - **Estadistico de prueba (t):** 0.054
 - **Valor crítico (para $\alpha$ = 0.05):** ±1.961
 
+## Conclusión
+Se aprende el uso del DAQ para pasar los datos de una señal EMG al computador para asi analizarlos, haciendo uso también de un filtro de ventana Hanning para las muestras. También se analiza la densidad espectral de la señal y la frecuencia mediana que es de 167.97 Hz, indicando una actividad muscular alta.
+
+En el test de hipótesis se evidencia que las medias son muy cercanas, por lo tanto no se rechaza la hipótesis nula (Ho). Esto indica que no hay una diferencia significativa estadisticamente entre las dos partes de la señal, es decir, no hay suficiente evidencia que demuestre una fatiga entre la primera y ultima contracción del músculo.
+
+
 
 
