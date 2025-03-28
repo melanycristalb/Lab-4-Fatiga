@@ -57,9 +57,13 @@ t = (μ₁ - μ₂) / sqrt((s₁² / n₁) + (s₂² / n₂))
 Para esto se tiene en cuenta el valor de significancia ($\alpha$) que uno de los valores más comunes y que se usa en este laboratorio es de 0,05 (5%). También se determinan los grados de libertad que se calcula con la siguiente formula:
 
                                                                df = min(n1 - 1, n2 - 1)
+Una vez que se tiene el nivel de significancia y los grados de libertad, se revisan estos valores en una tabla de valores criticos (dos colas o bilateral en este caso) para saber a cual pertenece.A continuación se observa un ejemplo de esta tabla de la cual se uso para saber el valor critico de este laboratorio:
+![image](https://github.com/user-attachments/assets/175e8feb-3920-45a7-aa5c-2ff17e5295dd)
+### *Figura 1: Tabla de Valores criticos de Student.*
+
 ## Resultados
 ### Test de Hipótesis:
-- **Media primera contracción**−1.63
+- **Media primera contracción:** −1.63
 - **Media última contracción:**-1.85  
 - **Desviación estándar primera contracción:** 39.00
 - **Desviación estándar última contracción:** 41.38
