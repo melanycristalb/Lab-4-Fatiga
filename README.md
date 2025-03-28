@@ -70,6 +70,8 @@ Con **fatiga extrema**, el sistema nervioso no logra activar nuevas unidades mot
 **¿Cómo lo observamos?**  
  Un **aumento inicial** en la potencia de la señal, seguido de una **disminución brusca**, indica **fatiga avanzada**.  
 
+ Para obtener todos estos datos y poder observar correctamente la señal necesitamos hacer uso de lo siguiente: 
+
 ### Módulo de sensor EMG
 Es un dispositivo electrónico diseñado para registrar la actividad eléctrica de los músculos. Cuenta con:
 
@@ -105,14 +107,43 @@ Las siguientes gráficas permiten analizar la evolución de la señal EMG y dete
 **¿Qué muestra?**  
 - Representa la variabilidad de la señal en diferentes momentos.  
 - **Indicador de fatiga** → Si la **amplitud disminuye**, el músculo **pierde actividad eléctrica**.  
+## Test de Hipótesis en el Análisis de Fatiga Muscular  
 
-### Pruebas de Hipótesis  
+### ¿Qué es un test de hipótesis y para qué se usa?  
+Un **test de hipótesis** permite evaluar si un cambio en la señal EMG es **estadísticamente significativo** o si ocurrió por azar.  
 
-**Prueba de una cola** → Para verificar si la **frecuencia mediana disminuye significativamente** con el tiempo.  
+En este experimento, lo usamos para comprobar si la **frecuencia mediana** realmente disminuye con la fatiga y si los cambios en la amplitud de la señal son relevantes.  
 
-**Prueba de dos colas** → Para comparar **cambios generales en la distribución** de la señal EMG durante el experimento.  
+### Aplicaciones en el análisis de EMG  
+Cuando un músculo se fatiga, se espera que:  
+La **frecuencia mediana** de la señal EMG disminuya.  
+La **amplitud** de la señal cambie debido al reclutamiento de nuevas unidades motoras.  
+
+Para confirmar esto, aplicamos **tests de hipótesis**.  
+
+### Tipos de tests de hipótesis utilizados  
+
+####  **Test de una cola**  
+**Objetivo**: Verificar si la **frecuencia mediana disminuye significativamente** con el tiempo.  
+Hipótesis nula (\(H_0\)): No hay cambio en la frecuencia mediana.  
+Hipótesis alternativa (\(H_1\)): La frecuencia mediana **disminuye** con la fatiga.  
+**Interpretación**:  
+- Si el valor \( p \) del test es menor que un umbral (\(\alpha = 0.05\)), la disminución es **estadísticamente significativa**.  
 
 
+#### **Test de dos colas**  
+**Objetivo**: Evaluar **cambios generales en la distribución** de la señal EMG.  
+Hipótesis nula (\(H_0\)): No hay diferencia en la señal EMG entre el inicio y el final del experimento.  
+Hipótesis alternativa (\(H_1\)): La distribución de la señal **cambia significativamente** con la fatiga.  
+**Interpretación**:  
+- Se usa cuando no se sabe si el cambio será un **aumento o disminución** en la señal.  
+
+### Importancia del test de hipótesis en EMG  
+Aplicar tests de hipótesis nos permite validar científicamente los cambios en la señal EMG y evitar interpretaciones erróneas. Esto es clave para aplicaciones como:  
+
+**Rehabilitación** → Monitoreo de la fatiga muscular en terapias.  
+**Deporte** → Optimización de entrenamientos para prevenir lesiones.  
+**Neurociencia** → Estudio del control motor y enfermedades neuromusculares.  
 
 ## Test de Hipótesis
 Es un procedimiento para juzgar si una propiedad que se supone en una población estadística es compatible con lo observado en una muestra de dicha población. En este caso vamos a analizar si realmente la primera muestra y la ultima muestra de la contraccion muscular, son diferentes y que exista fatiga en el músculo. Para eso seguimos los siguientes pasos:
