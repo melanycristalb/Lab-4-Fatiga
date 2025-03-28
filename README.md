@@ -13,6 +13,10 @@ Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando 
 ## Introducción
 La electromiografia es crucial en la evaluacion de la actividad muscular y el diagnostico de enfermedades neuromusculares, el analisis de esta señal nos permite identificar condiciones clinicas  que pueda tener el paciente, en este laboratorio realizamos la adquisicion de datos con el (DAQ), el cual minimiza el ruido, garantizando presicion y resolucion al representar la actividad del musculo
 
+ **Objetivo:**  
+Desarrollar un sistema para adquirir, procesar y analizar señales EMG, proporcionando una guía clara y detallada que permita comprender **cómo se procesan estos datos y cómo detectar fatiga muscular**.  
+
+
 ## Marco Teórico
 ### Electromiografía
 Técnica utilizada para registrar la actividad eléctrica de los musculos. Hay dos tipos principales de EMG, el invasivo y el no invasivo:
@@ -22,6 +26,50 @@ Técnica utilizada para registrar la actividad eléctrica de los musculos. Hay d
 
 La señal es generada por los potenciales de acción de las fibras musculares en respuesta a estimulos nerviosos, nuestro objetivo en este laboratorio es la señal EMG la cual se enfocara en la detección de fatiga muscular, en la que procesaremos la señal para evaluar parámetros estadísticos, los cambios que tiene reflejan la reducción en la eficiencia de la activación muscular conforme progresa la fatiga.
 
+### ¿Qué es la fatiga muscular?  
+La **fatiga muscular** ocurre cuando un músculo pierde su capacidad de generar fuerza tras un esfuerzo prolongado. Se manifiesta en la señal EMG con **una disminución en la frecuencia mediana** y **un aumento en la amplitud**. Analizar estos cambios nos ayuda a comprender el comportamiento del músculo durante la contracción sostenida. 
+
+### ¿Qué es la fatiga muscular y por qué se estudia?
+La fatiga muscular es el proceso en el que unes el proceso en el que un músculo pierde fuerza o capacidad de contracción debido a un uso prolongado. En el caso de la electromiografía (EMG) , la fatiga se refleja en la señal eléctrica del músculo, específicamente en su frecuencia y amplitud .
+
+Este fenómeno es estudiado porque:
+
+1. En rehabilitación : Ayuda a personalizar terapias en pacientes con lesiones neuromusculares.
+
+2. En biomecánica : Optimiza prótesis y exoesqueletos para mejorar la movilidad.
+
+3. En el deporte : Permite evitar sobrecargas musculares y mejorar el rendimiento de los atletas.
+
+4 .En ergonomía : Ayuda a diseñar entornos de trabajo que minimicen la fatiga laboral.
+
+##  ¿Cómo se mide la fatiga con señales EMG?
+
+Durante el experimento, aplicamos **ventana Hamming** y **FFT** para analizar cómo cambia la frecuencia de la señal EMG con el tiempo. Hay dos indicadores principales:
+
+---
+
+###  1. Disminución de la Frecuencia Mediana  
+
+La **frecuencia mediana (MF, Median Frequency)** es el valor en el cual la señal se divide en dos partes de igual energía.
+
+ **¿Por qué es importante?**  
+Cuando un músculo se fatiga:  
+Las fibras musculares pierden conducción eléctrica.  
+Se activan unidades motoras más grandes pero más lentas.  
+**La frecuencia mediana se reduce** con el tiempo.  
+
+**¿Cómo lo observamos?**  
+ Si la **MF baja progresivamente**, indica que el músculo se está fatigando.  
+
+### 2. Aumento de la Amplitud de la Señal EMG  
+
+**¿Qué sucede en la fatiga muscular?**  
+En **etapas iniciales de fatiga**, el músculo recluta más unidades motoras, **aumentando la amplitud** de la señal EMG.  
+Con **fatiga extrema**, el sistema nervioso no logra activar nuevas unidades motoras, **reduciendo la amplitud**.  
+
+**¿Cómo lo observamos?**  
+ Un **aumento inicial** en la potencia de la señal, seguido de una **disminución brusca**, indica **fatiga avanzada**.  
+
 ### Módulo de sensor EMG
 Es un dispositivo electrónico diseñado para registrar la actividad eléctrica de los músculos. Cuenta con:
 
@@ -29,9 +77,10 @@ Es un dispositivo electrónico diseñado para registrar la actividad eléctrica 
 - **Amplificador:** Aumenta la señal para tener una mejor visualización y poder procesarla.
 - **Filtro:** Incluye filtros que atenuan los ruidos no deseados, como el ruido del ambiente y tener la información lo más limpia posible.
 
-
 ### DAQ
 La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o físicos como lo es el voltaje, la corriente, temperatura, entre otros. Los datos que arroje el fenómeno se convierten en formato digital para que se puedan analizar a través de una computadora. En este caso, se usa la DAQ para adquirir los datos que arroja el músculo, es decir la cantidad de contracciones que hace el mismo hasta llegar a la fatiga, con el fin de analizarlos en la computadora haciendo uso de un código en python.
+
+Esta es alguna de la teoria basica que se debe tener en cuenta antes de empezar con la progrmación de la adqusición de señal.
 
 ## Requisitos
 - **Phyton** Instalado en tu sistema.
@@ -42,6 +91,28 @@ La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o f
 - **Módulo de sensor EMG** Para filtrado y amplificación de la señal.
 - **Electrodos** Captura de la señal.
 - **DAQ** Adqusición de datos.
+
+## Interpretación de las Gráficas  
+
+Las siguientes gráficas permiten analizar la evolución de la señal EMG y detectar la fatiga muscular.  
+
+### Espectrograma (Tiempo-Frecuencia)  
+ **¿Qué muestra?**  
+- Representa cómo cambian las frecuencias en el tiempo.  
+- **Indicador de fatiga** → Si las **frecuencias altas desaparecen**, indica **fatiga progresiva**.  
+
+###  Distribución de Amplitudes  
+**¿Qué muestra?**  
+- Representa la variabilidad de la señal en diferentes momentos.  
+- **Indicador de fatiga** → Si la **amplitud disminuye**, el músculo **pierde actividad eléctrica**.  
+
+### Pruebas de Hipótesis  
+
+**Prueba de una cola** → Para verificar si la **frecuencia mediana disminuye significativamente** con el tiempo.  
+
+**Prueba de dos colas** → Para comparar **cambios generales en la distribución** de la señal EMG durante el experimento.  
+
+
 
 ## Test de Hipótesis
 Es un procedimiento para juzgar si una propiedad que se supone en una población estadística es compatible con lo observado en una muestra de dicha población. En este caso vamos a analizar si realmente la primera muestra y la ultima muestra de la contraccion muscular, son diferentes y que exista fatiga en el músculo. Para eso seguimos los siguientes pasos:
