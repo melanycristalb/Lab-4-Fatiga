@@ -1,4 +1,4 @@
-# Lab-4-Fatiga
+# Lab-4-Análisis-de-Señales-EMG-y-Detección-de-Fatiga-Muscular
 Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando un filtrado para las señales continuas que se obtendrán a través de un módulo de sensor EMG. El código esta implementado en Python y utiliza bibliotecas como `numpy`, `matplotlib`, `pandas`y `PyQt6`.
 
 ## Tabla de Contenido
