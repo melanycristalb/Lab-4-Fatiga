@@ -16,8 +16,7 @@ La electromiografia es crucial en la evaluacion de la actividad muscular y el di
 ### Electromiografía
 Técnica utilizada para registrar la actividad eléctrica de los musculos. Hay dos tipos principales de EMG, el invasivo y el no invasivo:
 
-1.El **no invasivo** es el cual usamos para este laboratorio, se obtiene mediante electrodos colocados sobre la piel.
-
-2.El **invasivo** utiliza agujas insertadas en el musculo para capturar señales mas profundas y especificas. 
+- El **no invasivo** es el cual usamos para este laboratorio, se obtiene mediante electrodos colocados sobre la piel.
+- El **invasivo** utiliza agujas insertadas en el musculo para capturar señales mas profundas y especificas. 
 
 La señal es generada por los potenciales de acción de las fibras musculares en respuesta a estimulos nerviosos, nuestro objetivo en este laboratorio es la señal EMG la cual se enfocara en la detección de fatiga muscular, en la que procesaremos la señal para evaluar parámetros estadísticos, los cambios que tiene reflejan la reducción en la eficiencia de la activación muscular conforme progresa la fatiga.
