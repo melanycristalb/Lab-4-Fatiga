@@ -9,7 +9,7 @@ Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando 
 5.[Test de Hipótesis](#Test-de-Hipótesis).
 6.[Conclusión](#conclusión)
 
-[Introducción]
+## Introducción
 La electromiografia es crucial en la evaluacion de la actividad muscular y el diagnostico de enfermedades neuromusculares, el analisis de esta señal nos permite identificar condiciones clinicas  que pueda tener el paciente, en este laboratorio realizamos la adquisicion de datos con el (DAQ), el cual minimiza el ruido, garantizando presicion y resolucion al representar la actividad del musculo
 
 ## Marco Teórico
@@ -22,7 +22,7 @@ Técnica utilizada para registrar la actividad eléctrica de los musculos. Hay d
 La señal es generada por los potenciales de acción de las fibras musculares en respuesta a estimulos nerviosos, nuestro objetivo en este laboratorio es la señal EMG la cual se enfocara en la detección de fatiga muscular, en la que procesaremos la señal para evaluar parámetros estadísticos, los cambios que tiene reflejan la reducción en la eficiencia de la activación muscular conforme progresa la fatiga.
 
 ### Módulo de sensor EMG
-Es un dsipositivo electrónico diseñado para registrar la actividad eléctrica de los músculos. Cuenta con:
+Es un dispositivo electrónico diseñado para registrar la actividad eléctrica de los músculos. Cuenta con:
 
 - **Electrodos de superficie:** Capturan las señales eléctricas de los músculos.
 - **Amplificador:** Aumenta la señal para tener una mejor visualización y poder procesarla.
