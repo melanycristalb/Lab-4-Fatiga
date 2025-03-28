@@ -163,6 +163,7 @@ Una vez que se tiene el nivel de significancia y los grados de libertad, se revi
 ## Resultados
 
 ![WhatsApp Image 2025-03-27 at 11 52 24 PM](https://github.com/user-attachments/assets/56925d31-2e65-43a2-b08d-04d9ff1bc925)
+### *Figura 2: Grafica de la señal.*
 
 ### Test de Hipótesis:
 - **Media primera contracción:** −1.63
