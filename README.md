@@ -43,4 +43,16 @@ La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o f
 - **Electrodos** Captura de la señal.
 - **DAQ** Adqusición de datos.
 
+## Test de Hipótesis
+Es un procedimiento para juzgar si una propiedad que se supone en una población estadística es compatible con lo observado en una muestra de dicha población. En este caso vamos a analizar si realmente la primera muestra y la ultima muestra de la contraccion muscular, son diferentes y que exista fatiga en el músculo. Para eso seguimos los siguientes pasos:
+
+1. Establecer la hipótesis:
+- Ho: No hay diferencias (es conocida como hipótesis nula).
+- Ha1: μ1-μ2 ≠ 0 (Ya sea un número mayor o menor que 0).
+2. Escoger el estadistico de prueba (t):
+  $$
+t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
+  
+
 
