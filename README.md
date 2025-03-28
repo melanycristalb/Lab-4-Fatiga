@@ -37,8 +37,10 @@ La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o f
 - **Phyton** Instalado en tu sistema.
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
 - **Bibliotecas de Python:** `numpy`,`matplotlib`,`PyQt6`,`pandas`.
-- **Módulo de sensor EMG** Para filtrado y amplificación de la señal.
 
 ## Materiales
+- **Módulo de sensor EMG** Para filtrado y amplificación de la señal.
+- **Electrodos** Captura de la señal.
+- **DAQ** Adqusición de datos.
 
 
