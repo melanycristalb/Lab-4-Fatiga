@@ -142,8 +142,7 @@ Aplicar tests de hipótesis nos permite validar científicamente los cambios en 
 **Deporte** → Optimización de entrenamientos para prevenir lesiones.  
 **Neurociencia** → Estudio del control motor y enfermedades neuromusculares.  
 
-## Test de Hipótesis
-Es un procedimiento para juzgar si una propiedad que se supone en una población estadística es compatible con lo observado en una muestra de dicha población. En este caso vamos a analizar si realmente la primera muestra y la ultima muestra de la contraccion muscular, son diferentes y que exista fatiga en el músculo. Para eso seguimos los siguientes pasos:
+### Procedimiento:
 
 **1.** Establecer la hipótesis:
 - Ho: No hay diferencias (es conocida como hipótesis nula).
