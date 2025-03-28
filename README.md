@@ -29,9 +29,6 @@ La señal es generada por los potenciales de acción de las fibras musculares en
 ### ¿Qué es la fatiga muscular?  
 La **fatiga muscular** ocurre cuando un músculo pierde su capacidad de generar fuerza tras un esfuerzo prolongado. Se manifiesta en la señal EMG con **una disminución en la frecuencia mediana** y **un aumento en la amplitud**. Analizar estos cambios nos ayuda a comprender el comportamiento del músculo durante la contracción sostenida. 
 
-### ¿Qué es la fatiga muscular y por qué se estudia?
-La fatiga muscular es el proceso en el que unes el proceso en el que un músculo pierde fuerza o capacidad de contracción debido a un uso prolongado. En el caso de la electromiografía (EMG) , la fatiga se refleja en la señal eléctrica del músculo, específicamente en su frecuencia y amplitud .
-
 Este fenómeno es estudiado porque:
 
 1. En rehabilitación : Ayuda a personalizar terapias en pacientes con lesiones neuromusculares.
