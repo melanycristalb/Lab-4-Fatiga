@@ -161,6 +161,9 @@ Una vez que se tiene el nivel de significancia y los grados de libertad, se revi
 ### *Figura 1: Tabla de Valores criticos de Student.*
 
 ## Resultados
+
+![WhatsApp Image 2025-03-27 at 11 52 24 PM](https://github.com/user-attachments/assets/56925d31-2e65-43a2-b08d-04d9ff1bc925)
+
 ### Test de Hipótesis:
 - **Media primera contracción:** −1.63
 - **Media última contracción:**-1.85  
