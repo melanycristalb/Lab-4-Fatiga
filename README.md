@@ -20,3 +20,6 @@ Técnica utilizada para registrar la actividad eléctrica de los musculos. Hay d
 - El **invasivo** utiliza agujas insertadas en el musculo para capturar señales mas profundas y especificas. 
 
 La señal es generada por los potenciales de acción de las fibras musculares en respuesta a estimulos nerviosos, nuestro objetivo en este laboratorio es la señal EMG la cual se enfocara en la detección de fatiga muscular, en la que procesaremos la señal para evaluar parámetros estadísticos, los cambios que tiene reflejan la reducción en la eficiencia de la activación muscular conforme progresa la fatiga.
+
+### DAQ
+La adquisición de datos (DAQ) es el proceso de medir fenómenos eléctricos o físicos como lo es el voltaje, la corriente, temperatura, entre otros. Los datos que arroje el fenómeno se convierten en formato digital para que se puedan analizar a través de una computadora. En este caso, se usa la DAQ para adquirir los datos que arroja el músculo, es decir la cantidad de contracciones que hace el mismo hasta llegar a la fatiga, con el fin de analizarlos en la computadora haciendo uso de un código en python.
