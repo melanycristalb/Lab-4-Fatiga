@@ -56,7 +56,7 @@ t = (μ₁ - μ₂) / sqrt((s₁² / n₁) + (s₂² / n₂))
 **3.** Definir el valor crítico
 Para esto se tiene en cuenta el valor de significancia ($\alpha$) que uno de los valores más comunes y que se usa en este laboratorio es de 0,05 (5%). También se determinan los grados de libertad que se calcula con la siguiente formula:
 
-                                                                                  df = min(n1 - 1, n2 - 1)
+                                                               df = min(n1 - 1, n2 - 1)
   
 
 
