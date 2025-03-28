@@ -24,9 +24,9 @@ La señal es generada por los potenciales de acción de las fibras musculares en
 ### Módulo de sensor EMG
 Es un dsipositivo electrónico diseñado para registrar la actividad eléctrica de los músculos. Cuenta con:
 
--**Electrodos de superficie:** Capturan las señales eléctricas de los músculos.
--**Amplificador:** Aumenta la señal para tener una mejor visualización y poder procesarla.
--**Filtro:** Incluye filtros que atenuan los ruidos no deseados, como el ruido del ambiente y tener la información lo más limpia posible.
+- **Electrodos de superficie:** Capturan las señales eléctricas de los músculos.
+- **Amplificador:** Aumenta la señal para tener una mejor visualización y poder procesarla.
+- **Filtro:** Incluye filtros que atenuan los ruidos no deseados, como el ruido del ambiente y tener la información lo más limpia posible.
 
 
 ### DAQ
