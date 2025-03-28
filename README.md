@@ -6,8 +6,8 @@ Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando 
 2. [Marco Teórico](#Marco-Teórico)
 3.[Requisitos](#requisitos)
 4.[Materiales](#materiales)
-5.[Resultados](#resultados).
-6.[Test de Hipótesis](#Test-de-Hipótesis).
+5. [Test de Hipótesis](#Test-de-Hipótesis)
+6.[Resultados](#resultados).
 7.[Conclusión](#conclusión)
 
 ## Introducción
@@ -57,6 +57,16 @@ t = (μ₁ - μ₂) / sqrt((s₁² / n₁) + (s₂² / n₂))
 Para esto se tiene en cuenta el valor de significancia ($\alpha$) que uno de los valores más comunes y que se usa en este laboratorio es de 0,05 (5%). También se determinan los grados de libertad que se calcula con la siguiente formula:
 
                                                                df = min(n1 - 1, n2 - 1)
-#### Para el laboratorio los resultados fueron: 
+## Resultados
+### Test de Hipótesis:
+- **Media primera contracción**−1.63
+- **Media última contracción:**-1.85  
+- **Desviación estándar primera contracción:** 39.00
+- **Desviación estándar última contracción:** 41.38
+- **Tamaño de muestra:** n1=n2= 310
+- **Grados de libertad:** 309
+- **Estadistico de prueba (t):** 0.054
+- **Valor crítico (para $\alpha$ = 0.05):** ±1.961
+
 
 
