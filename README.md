@@ -11,3 +11,5 @@ Este laboratorio tiene como objetivo analizar la fátiga del músculo aplicando 
 
 [Introducción]
 La electromiografia es crucial en la evaluacion de la actividad muscular y el diagnostico de enfermedades neuromusculares, el analisis de esta señal nos permite identificar condiciones clinicas  que pueda tener el paciente, en este laboratorio realizamos la adquisicion de datos con el (DAQ), el cual minimiza el ruido, garantizando presicion y resolucion al representar la actividad del musculo
+
+#Marco-Teórico
