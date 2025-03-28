@@ -49,10 +49,13 @@ Es un procedimiento para juzgar si una propiedad que se supone en una población
 **1.** Establecer la hipótesis:
 - Ho: No hay diferencias (es conocida como hipótesis nula).
 - Ha1: μ₁-μ₂ ≠ 0 (Ya sea un número mayor o menor que 0).
+
 **2.** Escoger el estadistico de prueba (t):
 t = (μ₁ - μ₂) / sqrt((s₁² / n₁) + (s₂² / n₂))
+
 **3.** Definir el valor crítico
-  Para esto se tiene en cuenta el valor de significancia ($\alpha$) 
+Para esto se tiene en cuenta el valor de significancia ($\alpha$) que uno de los valores más comunes y que se usa en este laboratorio es de 0,05 (5%). También se determinan los grados de libertad que se calcula con la siguiente formula:
+df = min(n1 - 1, n2 - 1)
   
 
 
